@@ -61,8 +61,8 @@ num=1;
 pnum=1;
 line="-";
  count=0;
- count1=1;
- count2=1;
+ count1=0;
+ count2=0;
 System.out.println("Using do-while loops");
 do{
   do {
@@ -72,15 +72,15 @@ do{
         }while (count2<pnum);
     System.out.println("");
     count1++;
-    count2=1;
+    count2=0;
     }  while (count1<num);
     System.out.println(line);
     line=line+"--";
     num++;
     pnum+=2;
     count++;
-    count1=1;
-    count2=1;
+    count1=0;
+    count2=0;
     
 }
 while (count<x);    
