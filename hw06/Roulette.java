@@ -27,7 +27,7 @@ public static void main(String[] args) {
            spin++;}
         if (success>2)
         win++;
-        else{
+        if(success==0){
         lose++;}
         exp++;
     }
